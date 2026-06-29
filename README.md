@@ -6,12 +6,6 @@
 
 While working on another project, I needed a list of domains being used for dynamic DNS, and since I've lost a few hours of my life, I decided to just release the list. Due to the repository getting some views lately and having some extra time, I decided to automate the scraping part, so that the list remains updated.
 
-<div align="center">
-  <kbd>
-    <img src="https://i.imgur.com/GPecoyu.png" />
-  </kbd>
-</div>
-
 ## Use Cases
 
 - Blocking access to known malicious domains: the list can be used to block access to domains that are known to be used by malware, phishing, or other types of malicious activities.
@@ -43,13 +37,7 @@ If there are any more websites you know that provide Dynamic DNS, please open an
 
 ## Usage Example
 
-When running the project for the first time, it initializes by scraping each provider's site for their available domains. An example of the initial run can be seen below:
-
-<div align="center">
-  <kbd>
-    <img src="https://i.imgur.com/lUoaWfC.png" />
-  </kbd>
-</div>
+When running the project for the first time, it initializes by scraping each provider's site for their available domains.
 
 In the image above, the script is shown scraping the domains from each provider. Once the scraping process is completed, the results are stored in individual JSON files within the `data` folder. A consolidated list of all the domains is also generated and stored as a CSV and TXT file in the root directory of the project.
 
