@@ -1,4 +1,4 @@
-# DNS domain list (2026) - 32756 domains
+# DNS domain list
 
 While working on another project, I needed a list of domains being used for dynamic DNS, and since I've lost a few hours of my life, I decided to just release the list. Due to the repository getting some views lately and having some extra time, I decided to automate the scraping part, so that the list remains updated.
 
