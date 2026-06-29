@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "dyndns",
+  "version": "1.0.0",
+  "description": "While working on another project, I needed a list of domains being used for dynamic DNS, and since I've lost a few hours of my life, I decided to just release the list.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node scripts/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruperthjr/dns-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruperthjr/dns-list/issues"
+  },
+  "homepage": "https://github.com/ruperthjr/dns-list#readme",
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.1",
+    "puppeteer": "^24.43.1"
+  }
+}
