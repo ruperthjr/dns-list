@@ -59,4 +59,4 @@ Users are responsible for their own use of this list and should conduct their ow
 
 ### License
 
-This project is licensed under the [Unlicense license](LICENSE).
+This project is licensed under the [license](LICENSE).
