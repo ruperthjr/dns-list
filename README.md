@@ -58,5 +58,4 @@ This dynamic DNS domain list is provided for informational purposes only. The in
 Users are responsible for their own use of this list and should conduct their own due diligence to determine whether a domain is safe or appropriate for their purposes. The author of this list disclaims any liability for damages or losses that may result from the use of this list.
 
 ### License
-
 This project is licensed under the [license](LICENSE).
