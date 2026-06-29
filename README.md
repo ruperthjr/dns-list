@@ -21,7 +21,6 @@ The project uses Puppeteer for scraping websites that either require login or ar
 
 If there are any more websites you know that provide Dynamic DNS, please open an issue, and I will automate that too.
 
-
 ## Setup and Running the Project
 
 1. Clone the repository.
