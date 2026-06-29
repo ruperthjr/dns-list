@@ -35,13 +35,7 @@ If there are any more websites you know that provide Dynamic DNS, please open an
 5. Run `node main.js` to start the scraping process. A chromium window will pop up and will navigate to cloudns.net, which will automatically enter the login details, and wait 15 seconds for you to complete the captcha. After you finish the captcha, please don't press the login button, as that will disrupt the script.
 6. The output will be JSON files for each provider in the `data` folder, and a `links.csv` file will also be created in the root directory with all the domains, the date they were retrieved, and their provider.
 
-## Usage Example
 
-When running the project for the first time, it initializes by scraping each provider's site for their available domains.
-
-In the image above, the script is shown scraping the domains from each provider. Once the scraping process is completed, the results are stored in individual JSON files within the `data` folder. A consolidated list of all the domains is also generated and stored as a CSV and TXT file in the root directory of the project.
-
-For subsequent runs, the script only adds new domains to the list. This ensures that the list remains up-to-date while avoiding duplicate entries.
 
 
 ### DNS Providers included:
