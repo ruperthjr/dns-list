@@ -36,8 +36,6 @@ If there are any more websites you know that provide Dynamic DNS, please open an
 6. The output will be JSON files for each provider in the `data` folder, and a `links.csv` file will also be created in the root directory with all the domains, the date they were retrieved, and their provider.
 
 
-
-
 ### DNS Providers included:
 - [afraid.org](https://afraid.org/) (38469 domains)
 - [dyn.com](https://dyn.com/) (293 domains)
